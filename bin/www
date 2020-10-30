@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-var debug = require('debug')('express-project-starter:server');
-
 const port = process.env.PORT || '8080';
 
 const app = require('../app');
