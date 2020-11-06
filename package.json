@@ -8,19 +8,22 @@
     "start:production": "node ./bin/www"
   },
   "dependencies": {
+    "connect-session-sequelize": "^7.0.4",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
+    "express-session": "^1.17.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "per-env": "^1.0.2",
     "pg": "^8.4.2",
-    "pug": "2.0.4"
+    "pug": "2.0.4",
+    "sequelize": "^5.22.3",
+    "sequelize-cli": "^5.5.1"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
     "dotenv-cli": "^4.0.0",
-    "nodemon": "^2.0.6",
-    "sequelize-cli": "^6.2.0"
+    "nodemon": "^2.0.6"
   }
 }
